@@ -3,6 +3,8 @@ import './App.css';
 import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
 import Student from './components/Student';
 import Teacher from './components/Teacher';
+import env from "react-dotenv";
+
 
 function App() {
   return (
